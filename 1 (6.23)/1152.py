@@ -1,11 +1,3 @@
-string = "The Curious Case of Benjamin Button"
-words = string.split()
-print(len(words))
-
-string="The first character is a blank"
-words = string.split()
-print(len(words))
-
-string="The last character is a blank"
-words=string.split()
-print(len(words))
+string= input("글을 적으세요 :")
+a = string.split()
+print(len(a))
